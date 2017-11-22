@@ -17,8 +17,8 @@
   arr['one'][0] = 0;
   arr['one'][1] = 1;
   arr['two'] = new Array;
-  arr['one']['one'] = 'one';
-  arr['one']['two'] = 'two';
+  arr['two']['one'] = 'one';
+  arr['two']['two'] = 'two';
   arr['tree'] = 3;
   console.log(json_encode(arr);
 <p><code></script></code></pre>
