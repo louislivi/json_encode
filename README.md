@@ -9,6 +9,8 @@
 <p><code>const JSON_UNESCAPED_SLASHES = 64;</code></p>
 <p><code>const JSON_UNESCAPED_UNICODE = 256;</code></p>
 <p><code>const JSON_FORCE_OBJECT = 16;</code></code></p>
+also chinese to unicode. example
+<p>中国  to \u4e2d\u56fd </p>
 - Demo
 <pre><code>
 <script src="./json_encode.min.js"></script>
