@@ -1,0 +1,13 @@
+<script src="./json_encode.min.js"></script>
+<script>
+  var arr = new Array;
+  arr['one'] = new Array;
+  arr['one'][0] = 0;
+  arr['one'][1] = 1;
+  arr['two'] = new Array;
+  arr['two']['one'] = 'one';
+  arr['two']['two'] = 'two';
+  arr['tree'] = 3;
+  alert(json_encode(arr));
+  console.log(json_encode(arr));
+</script>
