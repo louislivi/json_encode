@@ -20,7 +20,7 @@
   arr['two']['one'] = 'one';
   arr['two']['two'] = 'two';
   arr['tree'] = 3;
-  console.log(json_encode(arr);
+  console.log(json_encode(arr));
 <p><code></script></code></pre>
 
 * Result
