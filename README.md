@@ -9,3 +9,20 @@
 <p><code>const JSON_UNESCAPED_SLASHES = 64;</code></p>
 <p><code>const JSON_UNESCAPED_UNICODE = 256;</code></p>
 <p><code>const JSON_FORCE_OBJECT = 16;</code></code></p>
+- Demo
+<pre><code><script src="./json_encode.js"></script>
+<script>
+  var arr = new Array;
+  arr['one'] = new Array;
+  arr['one'][0] = 0;
+  arr['one'][1] = 1;
+  arr['two'] = new Array;
+  arr['one']['one'] = 'one';
+  arr['one']['two'] = 'two';
+  arr['tree'] = 3;
+  console.log(json_encode(arr);
+<p><code></script></code></pre>
+
+* Result
+  <pre><code>{"one":[0,1],"two":{"one":"one","two":"two"},"tree":3}</code></pre>
+
