@@ -20,11 +20,11 @@
   arr['two'] = new Array;
   arr['two']['one'] = 'one';
   arr['two']['two'] = 'two';
-  arr['tree'] = 3;
+  arr['three'] = 3;
   console.log(json_encode(arr));
 </script>
 </code></pre>
 
 * Result
-  <pre><code>{"one":[0,1],"two":{"one":"one","two":"two"},"tree":3}</code></pre>
+  <pre><code>{"one":[0,1],"two":{"one":"one","two":"two"},"three":3}</code></pre>
 
