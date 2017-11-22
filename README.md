@@ -10,7 +10,8 @@
 <p><code>const JSON_UNESCAPED_UNICODE = 256;</code></p>
 <p><code>const JSON_FORCE_OBJECT = 16;</code></code></p>
 - Demo
-<pre><code><script src="./json_encode.min.js"></script>
+<pre><code>
+<script src="./json_encode.min.js"></script>
 <script>
   var arr = new Array;
   arr['one'] = new Array;
@@ -21,7 +22,8 @@
   arr['two']['two'] = 'two';
   arr['tree'] = 3;
   console.log(json_encode(arr));
-<p><code></script></code></pre>
+</script>
+</code></pre>
 
 * Result
   <pre><code>{"one":[0,1],"two":{"one":"one","two":"two"},"tree":3}</code></pre>
