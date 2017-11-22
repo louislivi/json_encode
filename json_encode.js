@@ -51,13 +51,13 @@ function json_escape_string(val,options){
 		return '""';
 	}
 	if(options & JSON_NUMERIC_CHECK){
-        if (!isNaN(parseInt(val))) {
-            if(val % 1 === 0){
-					return val;
-				}else{
-					return isFinite(val)?val:0;
+        	if (!isNaN(parseInt(val))) {
+           		if(val % 1 === 0){
+				return val;
+			}else{
+				return isFinite(val)?val:0;
 			}
-        }
+        	}
 	}
 	if(len == null){
 		return null;
